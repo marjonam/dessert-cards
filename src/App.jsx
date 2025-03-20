@@ -1,15 +1,18 @@
+import desserts from "./data";
+import { YourCart, DessertList, Dessert } from "./components";
 import { useSelector } from "react-redux";
-import { YourCart, DessertList } from "./components";
 
 function App() {
-  const { desserts } = useSelector((store) => store.cart);
+  const { desserts, totalAmount, totalPrice } = useSelector(
+    (store) => store.cart
+  );
 
   return (
-    <main className="app-container">
-      <div className="content">
+    <main>
+      <section className="container grid-container">
         <DessertList desserts={desserts} />
         <YourCart />
-      </div>
+      </section>
     </main>
   );
 }

@@ -10,11 +10,12 @@ export default [
     category: "Waffle",
     price: 6.5,
     id: 1,
+    amount: 0,
   },
   {
     image: {
       thumbnail: "../images/image-creme-brulee-thumbnail.jpg",
-      mobile: "./images/image-creme-brulee-mobile.jpg",
+      mobile: "../images/image-creme-brulee-mobile.jpg",
       tablet: "../images/image-creme-brulee-tablet.jpg",
       desktop: "../images/image-creme-brulee-desktop.jpg",
     },
@@ -22,6 +23,7 @@ export default [
     category: "Crème Brûlée",
     price: 7.0,
     id: 2,
+    amount: 0,
   },
   {
     image: {
@@ -34,6 +36,7 @@ export default [
     category: "Macaron",
     price: 8.0,
     id: 3,
+    amount: 0,
   },
   {
     image: {
@@ -46,6 +49,7 @@ export default [
     category: "Tiramisu",
     price: 5.5,
     id: 4,
+    amount: 0,
   },
   {
     image: {
@@ -58,6 +62,7 @@ export default [
     category: "Baklava",
     price: 4.0,
     id: 5,
+    amount: 0,
   },
   {
     image: {
@@ -70,6 +75,7 @@ export default [
     category: "Pie",
     price: 5.0,
     id: 6,
+    amount: 0,
   },
   {
     image: {
@@ -82,6 +88,7 @@ export default [
     category: "Cake",
     price: 4.5,
     id: 7,
+    amount: 0,
   },
   {
     image: {
@@ -94,6 +101,7 @@ export default [
     category: "Brownie",
     price: 4.5,
     id: 8,
+    amount: 0,
   },
   {
     image: {
@@ -106,5 +114,6 @@ export default [
     category: "Panna Cotta",
     price: 6.5,
     id: 9,
+    amount: 0,
   },
 ];

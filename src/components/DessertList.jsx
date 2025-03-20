@@ -1,12 +1,17 @@
-import { Dessert } from "./";
+import Dessert from "./Dessert";
 
 function DessertList({ desserts }) {
   return (
-    <div className="dessert-list">
-      {desserts.map((d) => (
-        <Dessert key={d.id} d={d} />
-      ))}
-    </div>
+    <>
+      <div>
+        <h1 className="main-title">Desserts</h1>
+        <div className="desserts-list">
+          {desserts.map((d) => {
+            return <Dessert key={d.id} d={d} />;
+          })}
+        </div>
+      </div>
+    </>
   );
 }
 
